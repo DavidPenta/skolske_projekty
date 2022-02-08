@@ -3,7 +3,7 @@ Projekty z FIIT za 1.-3. semester.
 
 ## Prvý semester
 ### Procedurálne programovanie
-- [Zadanie 1 - Práca s jednorozmerným poľom](DavidPenta/skolske_projekty/tree/main/Procedurálne%20programovanie/Zadanie%202%20-%20Spájaný%20zoznam%20štruktúr)
+- [Zadanie 1 - Práca s jednorozmerným poľom](skolske_projekty/Procedurálne programovanie/Zadanie 2 - Spájaný zoznam štruktúr/)
 - [Zadanie 2 - Spájaný zoznam štruktúr](Zadanie%202%20-%20Spájaný%20zoznam%20štruktúr)
 
 ## Druhý semester
