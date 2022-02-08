@@ -1,0 +1,510 @@
+Ramec 1
+Dlzka ramca poskytnuta pcap API: 92 B 
+Dlzka ramca prenasaneho po mediu: 96 B 
+Zdrojova MAC adresa: 00 08 74 4f 36 23
+Cielova MAC adresa: 00 30 c1 61 eb ed
+Ethernet II
+IPv4
+Zdrojova IP adresa: 192.168.1.102
+Cielova IP adresa: 192.168.1.104
+UDP
+snmp
+Zdrojovy port: 4125
+Cielovy port: 161
+00 30 c1 61 eb ed 00 08  74 4f 36 23 08 00 45 00
+00 4e 01 c2 00 00 80 11  00 00 c0 a8 01 66 c0 a8
+01 68 10 1d 00 a1 00 3a  30 ca 30 30 02 01 00 04
+06 70 75 62 6c 69 63 a0  23 02 02 18 31 02 01 00
+02 01 00 30 17 30 15 06  11 2b 06 01 04 01 0b 02
+03 09 04 02 01 02 02 02  01 00 05 00 
+
+Ramec 2
+Dlzka ramca poskytnuta pcap API: 93 B 
+Dlzka ramca prenasaneho po mediu: 97 B 
+Zdrojova MAC adresa: 00 30 c1 61 eb ed
+Cielova MAC adresa: 00 08 74 4f 36 23
+Ethernet II
+IPv4
+Zdrojova IP adresa: 192.168.1.104
+Cielova IP adresa: 192.168.1.102
+UDP
+snmp
+Zdrojovy port: 161
+Cielovy port: 4125
+00 08 74 4f 36 23 00 30  c1 61 eb ed 08 00 45 00
+00 4f ec d8 00 00 3c 11  0d a7 c0 a8 01 68 c0 a8
+01 66 00 a1 10 1d 00 3b  1e c4 30 31 02 01 00 04
+06 70 75 62 6c 69 63 a2  24 02 02 18 31 02 01 00
+02 01 00 30 18 30 16 06  11 2b 06 01 04 01 0b 02
+03 09 04 02 01 02 02 02  01 00 04 01 10 
+
+Ramec 3
+Dlzka ramca poskytnuta pcap API: 92 B 
+Dlzka ramca prenasaneho po mediu: 96 B 
+Zdrojova MAC adresa: 00 08 74 4f 36 23
+Cielova MAC adresa: 00 30 c1 61 eb ed
+Ethernet II
+IPv4
+Zdrojova IP adresa: 192.168.1.102
+Cielova IP adresa: 192.168.1.104
+UDP
+snmp
+Zdrojovy port: 4126
+Cielovy port: 161
+00 30 c1 61 eb ed 00 08  74 4f 36 23 08 00 45 00
+00 4e 01 c3 00 00 80 11  00 00 c0 a8 01 66 c0 a8
+01 68 10 1e 00 a1 00 3a  2f c9 30 30 02 01 00 04
+06 70 75 62 6c 69 63 a0  23 02 02 18 32 02 01 00
+02 01 00 30 17 30 15 06  11 2b 06 01 04 01 0b 02
+03 09 04 02 01 02 02 02  01 00 05 00 
+
+Ramec 4
+Dlzka ramca poskytnuta pcap API: 93 B 
+Dlzka ramca prenasaneho po mediu: 97 B 
+Zdrojova MAC adresa: 00 30 c1 61 eb ed
+Cielova MAC adresa: 00 08 74 4f 36 23
+Ethernet II
+IPv4
+Zdrojova IP adresa: 192.168.1.104
+Cielova IP adresa: 192.168.1.102
+UDP
+snmp
+Zdrojovy port: 161
+Cielovy port: 4126
+00 08 74 4f 36 23 00 30  c1 61 eb ed 08 00 45 00
+00 4f ec d9 00 00 3c 11  0d a6 c0 a8 01 68 c0 a8
+01 66 00 a1 10 1e 00 3b  1d c3 30 31 02 01 00 04
+06 70 75 62 6c 69 63 a2  24 02 02 18 32 02 01 00
+02 01 00 30 18 30 16 06  11 2b 06 01 04 01 0b 02
+03 09 04 02 01 02 02 02  01 00 04 01 10 
+
+Ramec 5
+Dlzka ramca poskytnuta pcap API: 77 B 
+Dlzka ramca prenasaneho po mediu: 81 B 
+Zdrojova MAC adresa: 00 08 74 4f 36 23
+Cielova MAC adresa: 00 06 25 da af 73
+Ethernet II
+IPv4
+Zdrojova IP adresa: 192.168.1.102
+Cielova IP adresa: 63.240.76.19
+UDP
+domain
+Zdrojovy port: 1026
+Cielovy port: 53
+00 06 25 da af 73 00 08  74 4f 36 23 08 00 45 00
+00 3f 01 c8 00 00 80 11  00 00 c0 a8 01 66 3f f0
+4c 13 04 02 00 35 00 2b  2d 97 04 4d 01 00 00 01
+00 00 00 00 00 00 04 67  61 69 61 02 63 73 05 75
+6d 61 73 73 03 65 64 75  00 00 01 00 01 
+
+Ramec 6
+Dlzka ramca poskytnuta pcap API: 293 B 
+Dlzka ramca prenasaneho po mediu: 297 B 
+Zdrojova MAC adresa: 00 06 25 da af 73
+Cielova MAC adresa: 00 08 74 4f 36 23
+Ethernet II
+IPv4
+Zdrojova IP adresa: 63.240.76.19
+Cielova IP adresa: 192.168.1.102
+UDP
+domain
+Zdrojovy port: 53
+Cielovy port: 1026
+00 08 74 4f 36 23 00 06  25 da af 73 08 00 45 00
+01 17 64 32 40 00 f1 11  d6 91 3f f0 4c 13 c0 a8
+01 66 00 35 04 02 01 03  e1 6a 04 4d 85 80 00 01
+00 01 00 05 00 05 04 67  61 69 61 02 63 73 05 75
+6d 61 73 73 03 65 64 75  00 00 01 00 01 04 67 61
+69 61 02 63 73 05 75 6d  61 73 73 03 65 64 75 00
+00 01 00 01 00 00 54 60  00 04 80 77 f5 0c c0 28
+00 02 00 01 00 00 32 6e  00 08 05 75 6e 69 78 31
+c0 28 c0 28 00 02 00 01  00 00 32 6e 00 06 03 6e
+69 63 c0 2b c0 28 00 02  00 01 00 00 32 6e 00 06
+03 6e 73 31 c0 2b c0 28  00 02 00 01 00 00 32 6e
+00 0c 03 6e 73 34 02 63  77 03 6e 65 74 00 c0 28
+00 02 00 01 00 00 32 6e  00 0b 04 6b 69 72 61 03
+65 63 73 c0 2b c0 50 00  01 00 01 00 00 32 6e 00
+04 80 77 28 0c c0 64 00  01 00 01 00 00 5b b6 00
+04 80 77 af 0e c0 76 00  01 00 01 00 00 d8 dd 00
+04 80 77 a6 0e c0 88 00  01 00 01 00 00 00 19 00
+04 cc 46 31 ea c0 a0 00  01 00 01 00 00 ea 4c 00
+04 80 77 5b 0a 
+
+Ramec 7
+Dlzka ramca poskytnuta pcap API: 62 B 
+Dlzka ramca prenasaneho po mediu: 66 B 
+Zdrojova MAC adresa: 00 08 74 4f 36 23
+Cielova MAC adresa: 00 06 25 da af 73
+Ethernet II
+IPv4
+Zdrojova IP adresa: 192.168.1.102
+Cielova IP adresa: 128.119.245.12
+TCP
+http
+Zdrojovy port: 4127
+Cielovy port: 80
+00 06 25 da af 73 00 08  74 4f 36 23 08 00 45 00
+00 30 01 cb 40 00 80 06  00 00 c0 a8 01 66 80 77
+f5 0c 10 1f 00 50 f5 32  64 b1 00 00 00 00 70 02
+fa f0 e6 48 00 00 02 04  05 b4 01 01 04 02 
+
+Ramec 8
+Dlzka ramca poskytnuta pcap API: 62 B 
+Dlzka ramca prenasaneho po mediu: 66 B 
+Zdrojova MAC adresa: 00 06 25 da af 73
+Cielova MAC adresa: 00 08 74 4f 36 23
+Ethernet II
+IPv4
+Zdrojova IP adresa: 128.119.245.12
+Cielova IP adresa: 192.168.1.102
+TCP
+http
+Zdrojovy port: 80
+Cielovy port: 4127
+00 08 74 4f 36 23 00 06  25 da af 73 08 00 45 00
+00 30 00 00 40 00 37 06  0c 36 80 77 f5 0c c0 a8
+01 66 00 50 10 1f 6b a6  54 91 f5 32 64 b2 70 12
+16 d0 0a 21 00 00 02 04  05 b4 01 01 04 02 
+
+Ramec 9
+Dlzka ramca poskytnuta pcap API: 54 B 
+Dlzka ramca prenasaneho po mediu: 64 B 
+Zdrojova MAC adresa: 00 08 74 4f 36 23
+Cielova MAC adresa: 00 06 25 da af 73
+Ethernet II
+IPv4
+Zdrojova IP adresa: 192.168.1.102
+Cielova IP adresa: 128.119.245.12
+TCP
+http
+Zdrojovy port: 4127
+Cielovy port: 80
+00 06 25 da af 73 00 08  74 4f 36 23 08 00 45 00
+00 28 01 cc 40 00 80 06  00 00 c0 a8 01 66 80 77
+f5 0c 10 1f 00 50 f5 32  64 b2 6b a6 54 92 50 10
+fa f0 37 ad 00 00 
+
+Ramec 10
+Dlzka ramca poskytnuta pcap API: 555 B 
+Dlzka ramca prenasaneho po mediu: 559 B 
+Zdrojova MAC adresa: 00 08 74 4f 36 23
+Cielova MAC adresa: 00 06 25 da af 73
+Ethernet II
+IPv4
+Zdrojova IP adresa: 192.168.1.102
+Cielova IP adresa: 128.119.245.12
+TCP
+http
+Zdrojovy port: 4127
+Cielovy port: 80
+00 06 25 da af 73 00 08  74 4f 36 23 08 00 45 00
+02 1d 01 cd 40 00 80 06  00 00 c0 a8 01 66 80 77
+f5 0c 10 1f 00 50 f5 32  64 b2 6b a6 54 92 50 18
+fa f0 39 a2 00 00 47 45  54 20 2f 65 74 68 65 72
+65 61 6c 2d 6c 61 62 73  2f 6c 61 62 32 2d 31 2e
+68 74 6d 6c 20 48 54 54  50 2f 31 2e 31 0d 0a 48
+6f 73 74 3a 20 67 61 69  61 2e 63 73 2e 75 6d 61
+73 73 2e 65 64 75 0d 0a  55 73 65 72 2d 41 67 65
+6e 74 3a 20 4d 6f 7a 69  6c 6c 61 2f 35 2e 30 20
+28 57 69 6e 64 6f 77 73  3b 20 55 3b 20 57 69 6e
+64 6f 77 73 20 4e 54 20  35 2e 31 3b 20 65 6e 2d
+55 53 3b 20 72 76 3a 31  2e 30 2e 32 29 20 47 65
+63 6b 6f 2f 32 30 30 32  31 31 32 30 20 4e 65 74
+73 63 61 70 65 2f 37 2e  30 31 0d 0a 41 63 63 65
+70 74 3a 20 74 65 78 74  2f 78 6d 6c 2c 61 70 70
+6c 69 63 61 74 69 6f 6e  2f 78 6d 6c 2c 61 70 70
+6c 69 63 61 74 69 6f 6e  2f 78 68 74 6d 6c 2b 78
+6d 6c 2c 74 65 78 74 2f  68 74 6d 6c 3b 71 3d 30
+2e 39 2c 74 65 78 74 2f  70 6c 61 69 6e 3b 71 3d
+30 2e 38 2c 76 69 64 65  6f 2f 78 2d 6d 6e 67 2c
+69 6d 61 67 65 2f 70 6e  67 2c 69 6d 61 67 65 2f
+6a 70 65 67 2c 69 6d 61  67 65 2f 67 69 66 3b 71
+3d 30 2e 32 2c 74 65 78  74 2f 63 73 73 2c 2a 2f
+2a 3b 71 3d 30 2e 31 0d  0a 41 63 63 65 70 74 2d
+4c 61 6e 67 75 61 67 65  3a 20 65 6e 2d 75 73 2c
+20 65 6e 3b 71 3d 30 2e  35 30 0d 0a 41 63 63 65
+70 74 2d 45 6e 63 6f 64  69 6e 67 3a 20 67 7a 69
+70 2c 20 64 65 66 6c 61  74 65 2c 20 63 6f 6d 70
+72 65 73 73 3b 71 3d 30  2e 39 0d 0a 41 63 63 65
+70 74 2d 43 68 61 72 73  65 74 3a 20 49 53 4f 2d
+38 38 35 39 2d 31 2c 20  75 74 66 2d 38 3b 71 3d
+30 2e 36 36 2c 20 2a 3b  71 3d 30 2e 36 36 0d 0a
+4b 65 65 70 2d 41 6c 69  76 65 3a 20 33 30 30 0d
+0a 43 6f 6e 6e 65 63 74  69 6f 6e 3a 20 6b 65 65
+70 2d 61 6c 69 76 65 0d  0a 0d 0a 
+
+Ramec 11
+Dlzka ramca poskytnuta pcap API: 60 B 
+Dlzka ramca prenasaneho po mediu: 64 B 
+Zdrojova MAC adresa: 00 06 25 da af 73
+Cielova MAC adresa: 00 08 74 4f 36 23
+Ethernet II
+IPv4
+Zdrojova IP adresa: 128.119.245.12
+Cielova IP adresa: 192.168.1.102
+TCP
+http
+Zdrojovy port: 80
+Cielovy port: 4127
+00 08 74 4f 36 23 00 06  25 da af 73 08 00 45 00
+00 28 b6 f9 40 00 37 06  55 44 80 77 f5 0c c0 a8
+01 66 00 50 10 1f 6b a6  54 92 f5 32 66 a7 50 10
+19 20 32 a0 00 00 62 b0  00 00 11 a7 
+
+Ramec 12
+Dlzka ramca poskytnuta pcap API: 439 B 
+Dlzka ramca prenasaneho po mediu: 443 B 
+Zdrojova MAC adresa: 00 06 25 da af 73
+Cielova MAC adresa: 00 08 74 4f 36 23
+Ethernet II
+IPv4
+Zdrojova IP adresa: 128.119.245.12
+Cielova IP adresa: 192.168.1.102
+TCP
+http
+Zdrojovy port: 80
+Cielovy port: 4127
+00 08 74 4f 36 23 00 06  25 da af 73 08 00 45 00
+01 a9 b6 fa 40 00 37 06  53 c2 80 77 f5 0c c0 a8
+01 66 00 50 10 1f 6b a6  54 92 f5 32 66 a7 50 18
+19 20 7a 1c 00 00 48 54  54 50 2f 31 2e 31 20 32
+30 30 20 4f 4b 0d 0a 44  61 74 65 3a 20 54 75 65
+2c 20 32 33 20 53 65 70  20 32 30 30 33 20 30 35
+3a 32 39 3a 35 30 20 47  4d 54 0d 0a 53 65 72 76
+65 72 3a 20 41 70 61 63  68 65 2f 32 2e 30 2e 34
+30 20 28 52 65 64 20 48  61 74 20 4c 69 6e 75 78
+29 0d 0a 4c 61 73 74 2d  4d 6f 64 69 66 69 65 64
+3a 20 54 75 65 2c 20 32  33 20 53 65 70 20 32 30
+30 33 20 30 35 3a 32 39  3a 30 30 20 47 4d 54 0d
+0a 45 54 61 67 3a 20 22  31 62 66 65 64 2d 34 39
+2d 37 39 64 35 62 66 30  30 22 0d 0a 41 63 63 65
+70 74 2d 52 61 6e 67 65  73 3a 20 62 79 74 65 73
+0d 0a 43 6f 6e 74 65 6e  74 2d 4c 65 6e 67 74 68
+3a 20 37 33 0d 0a 4b 65  65 70 2d 41 6c 69 76 65
+3a 20 74 69 6d 65 6f 75  74 3d 31 30 2c 20 6d 61
+78 3d 31 30 30 0d 0a 43  6f 6e 6e 65 63 74 69 6f
+6e 3a 20 4b 65 65 70 2d  41 6c 69 76 65 0d 0a 43
+6f 6e 74 65 6e 74 2d 54  79 70 65 3a 20 74 65 78
+74 2f 68 74 6d 6c 3b 20  63 68 61 72 73 65 74 3d
+49 53 4f 2d 38 38 35 39  2d 31 0d 0a 0d 0a 3c 68
+74 6d 6c 3e 0a 43 6f 6e  67 72 61 74 75 6c 61 74
+69 6f 6e 73 2e 20 20 59  6f 75 27 76 65 20 64 6f
+77 6e 6c 6f 61 64 65 64  20 74 68 65 20 66 69 6c
+65 20 6c 61 62 32 2d 31  2e 68 74 6d 6c 21 0a 3c
+2f 68 74 6d 6c 3e 0a 
+
+Ramec 13
+Dlzka ramca poskytnuta pcap API: 541 B 
+Dlzka ramca prenasaneho po mediu: 545 B 
+Zdrojova MAC adresa: 00 08 74 4f 36 23
+Cielova MAC adresa: 00 06 25 da af 73
+Ethernet II
+IPv4
+Zdrojova IP adresa: 192.168.1.102
+Cielova IP adresa: 128.119.245.12
+TCP
+http
+Zdrojovy port: 4127
+Cielovy port: 80
+00 06 25 da af 73 00 08  74 4f 36 23 08 00 45 00
+02 0f 01 d4 40 00 80 06  00 00 c0 a8 01 66 80 77
+f5 0c 10 1f 00 50 f5 32  66 a7 6b a6 56 13 50 18
+f9 6f 39 94 00 00 47 45  54 20 2f 66 61 76 69 63
+6f 6e 2e 69 63 6f 20 48  54 54 50 2f 31 2e 31 0d
+0a 48 6f 73 74 3a 20 67  61 69 61 2e 63 73 2e 75
+6d 61 73 73 2e 65 64 75  0d 0a 55 73 65 72 2d 41
+67 65 6e 74 3a 20 4d 6f  7a 69 6c 6c 61 2f 35 2e
+30 20 28 57 69 6e 64 6f  77 73 3b 20 55 3b 20 57
+69 6e 64 6f 77 73 20 4e  54 20 35 2e 31 3b 20 65
+6e 2d 55 53 3b 20 72 76  3a 31 2e 30 2e 32 29 20
+47 65 63 6b 6f 2f 32 30  30 32 31 31 32 30 20 4e
+65 74 73 63 61 70 65 2f  37 2e 30 31 0d 0a 41 63
+63 65 70 74 3a 20 74 65  78 74 2f 78 6d 6c 2c 61
+70 70 6c 69 63 61 74 69  6f 6e 2f 78 6d 6c 2c 61
+70 70 6c 69 63 61 74 69  6f 6e 2f 78 68 74 6d 6c
+2b 78 6d 6c 2c 74 65 78  74 2f 68 74 6d 6c 3b 71
+3d 30 2e 39 2c 74 65 78  74 2f 70 6c 61 69 6e 3b
+71 3d 30 2e 38 2c 76 69  64 65 6f 2f 78 2d 6d 6e
+67 2c 69 6d 61 67 65 2f  70 6e 67 2c 69 6d 61 67
+65 2f 6a 70 65 67 2c 69  6d 61 67 65 2f 67 69 66
+3b 71 3d 30 2e 32 2c 74  65 78 74 2f 63 73 73 2c
+2a 2f 2a 3b 71 3d 30 2e  31 0d 0a 41 63 63 65 70
+74 2d 4c 61 6e 67 75 61  67 65 3a 20 65 6e 2d 75
+73 2c 20 65 6e 3b 71 3d  30 2e 35 30 0d 0a 41 63
+63 65 70 74 2d 45 6e 63  6f 64 69 6e 67 3a 20 67
+7a 69 70 2c 20 64 65 66  6c 61 74 65 2c 20 63 6f
+6d 70 72 65 73 73 3b 71  3d 30 2e 39 0d 0a 41 63
+63 65 70 74 2d 43 68 61  72 73 65 74 3a 20 49 53
+4f 2d 38 38 35 39 2d 31  2c 20 75 74 66 2d 38 3b
+71 3d 30 2e 36 36 2c 20  2a 3b 71 3d 30 2e 36 36
+0d 0a 4b 65 65 70 2d 41  6c 69 76 65 3a 20 33 30
+30 0d 0a 43 6f 6e 6e 65  63 74 69 6f 6e 3a 20 6b
+65 65 70 2d 61 6c 69 76  65 0d 0a 0d 0a 
+
+Ramec 14
+Dlzka ramca poskytnuta pcap API: 1395 B 
+Dlzka ramca prenasaneho po mediu: 1399 B 
+Zdrojova MAC adresa: 00 06 25 da af 73
+Cielova MAC adresa: 00 08 74 4f 36 23
+Ethernet II
+IPv4
+Zdrojova IP adresa: 128.119.245.12
+Cielova IP adresa: 192.168.1.102
+TCP
+http
+Zdrojovy port: 80
+Cielovy port: 4127
+00 08 74 4f 36 23 00 06  25 da af 73 08 00 45 00
+05 65 b6 fb 40 00 37 06  50 05 80 77 f5 0c c0 a8
+01 66 00 50 10 1f 6b a6  56 13 f5 32 68 8e 50 18
+1d 50 63 71 00 00 48 54  54 50 2f 31 2e 31 20 34
+30 34 20 4e 6f 74 20 46  6f 75 6e 64 0d 0a 44 61
+74 65 3a 20 54 75 65 2c  20 32 33 20 53 65 70 20
+32 30 30 33 20 30 35 3a  32 39 3a 35 30 20 47 4d
+54 0d 0a 53 65 72 76 65  72 3a 20 41 70 61 63 68
+65 2f 32 2e 30 2e 34 30  20 28 52 65 64 20 48 61
+74 20 4c 69 6e 75 78 29  0d 0a 56 61 72 79 3a 20
+61 63 63 65 70 74 2d 6c  61 6e 67 75 61 67 65 0d
+0a 41 63 63 65 70 74 2d  52 61 6e 67 65 73 3a 20
+62 79 74 65 73 0d 0a 43  6f 6e 74 65 6e 74 2d 4c
+65 6e 67 74 68 3a 20 31  30 37 31 0d 0a 4b 65 65
+70 2d 41 6c 69 76 65 3a  20 74 69 6d 65 6f 75 74
+3d 31 30 2c 20 6d 61 78  3d 39 39 0d 0a 43 6f 6e
+6e 65 63 74 69 6f 6e 3a  20 4b 65 65 70 2d 41 6c
+69 76 65 0d 0a 43 6f 6e  74 65 6e 74 2d 54 79 70
+65 3a 20 74 65 78 74 2f  68 74 6d 6c 3b 20 63 68
+61 72 73 65 74 3d 49 53  4f 2d 38 38 35 39 2d 31
+0d 0a 0d 0a 0a 3c 3f 78  6d 6c 20 76 65 72 73 69
+6f 6e 3d 22 31 2e 30 22  20 65 6e 63 6f 64 69 6e
+67 3d 22 49 53 4f 2d 38  38 35 39 2d 31 22 3f 3e
+0a 3c 21 44 4f 43 54 59  50 45 20 68 74 6d 6c 20
+50 55 42 4c 49 43 20 22  2d 2f 2f 57 33 43 2f 2f
+44 54 44 20 58 48 54 4d  4c 20 31 2e 31 2f 2f 45
+4e 22 0a 20 20 20 20 22  68 74 74 70 3a 2f 2f 77
+77 77 2e 77 33 2e 6f 72  67 2f 54 52 2f 78 68 74
+6d 6c 31 31 2f 44 54 44  2f 78 68 74 6d 6c 31 31
+2e 64 74 64 22 3e 0a 3c  68 74 6d 6c 20 78 6d 6c
+6e 73 3d 22 68 74 74 70  3a 2f 2f 77 77 77 2e 77
+33 2e 6f 72 67 2f 31 39  39 39 2f 78 68 74 6d 6c
+22 20 78 6d 6c 3a 6c 61  6e 67 3d 22 65 6e 22 3e
+0a 3c 68 65 61 64 3e 0a  3c 74 69 74 6c 65 3e 4f
+62 6a 65 63 74 20 6e 6f  74 20 66 6f 75 6e 64 21
+3c 2f 74 69 74 6c 65 3e  0a 3c 6d 65 74 61 20 68
+74 74 70 2d 65 71 75 69  76 3d 22 43 6f 6e 74 65
+6e 74 2d 54 79 70 65 22  20 63 6f 6e 74 65 6e 74
+3d 22 74 65 78 74 2f 68  74 6d 6c 3b 20 63 68 61
+72 73 65 74 3d 69 73 6f  2d 38 38 35 39 2d 31 22
+20 2f 3e 0a 3c 6c 69 6e  6b 20 72 65 76 3d 22 6d
+61 64 65 22 20 68 72 65  66 3d 22 6d 61 69 6c 74
+6f 3a 73 79 73 74 65 6d  40 67 61 69 61 2e 63 73
+2e 75 6d 61 73 73 2e 65  64 75 22 20 2f 3e 0a 3c
+73 74 79 6c 65 20 74 79  70 65 3d 22 74 65 78 74
+2f 63 73 73 22 3e 0a 3c  21 2d 2d 0a 62 6f 64 79
+20 7b 20 63 6f 6c 6f 72  3a 20 23 30 30 30 30 30
+30 3b 20 62 61 63 6b 67  72 6f 75 6e 64 2d 63 6f
+6c 6f 72 3a 20 23 46 46  46 46 46 46 3b 20 7d 0a
+61 3a 6c 69 6e 6b 20 7b  20 63 6f 6c 6f 72 3a 20
+23 30 30 30 30 43 43 3b  20 7d 0a 2d 2d 3e 0a 3c
+2f 73 74 79 6c 65 3e 0a  3c 2f 68 65 61 64 3e 0a
+0a 3c 62 6f 64 79 3e 0a  3c 68 31 3e 4f 62 6a 65
+63 74 20 6e 6f 74 20 66  6f 75 6e 64 21 3c 2f 68
+31 3e 0a 3c 64 6c 3e 0a  3c 64 64 3e 0a 0a 0a 20
+20 20 20 54 68 65 20 72  65 71 75 65 73 74 65 64
+20 55 52 4c 20 77 61 73  20 6e 6f 74 20 66 6f 75
+6e 64 20 6f 6e 20 74 68  69 73 20 73 65 72 76 65
+72 2e 0a 0a 20 20 0a 0a  20 20 20 20 49 66 20 79
+6f 75 20 65 6e 74 65 72  65 64 20 74 68 65 20 55
+52 4c 20 6d 61 6e 75 61  6c 6c 79 20 70 6c 65 61
+73 65 20 63 68 65 63 6b  20 79 6f 75 72 0a 20 20
+20 20 73 70 65 6c 6c 69  6e 67 20 61 6e 64 20 74
+72 79 20 61 67 61 69 6e  2e 0a 0a 20 20 0a 0a 3c
+2f 64 64 3e 3c 2f 64 6c  3e 3c 64 6c 3e 3c 64 64
+3e 0a 49 66 20 79 6f 75  20 74 68 69 6e 6b 20 74
+68 69 73 20 69 73 20 61  20 73 65 72 76 65 72 20
+65 72 72 6f 72 2c 20 70  6c 65 61 73 65 20 63 6f
+6e 74 61 63 74 0a 74 68  65 20 3c 61 20 68 72 65
+66 3d 22 6d 61 69 6c 74  6f 3a 73 79 73 74 65 6d
+40 67 61 69 61 2e 63 73  2e 75 6d 61 73 73 2e 65
+64 75 22 3e 77 65 62 6d  61 73 74 65 72 3c 2f 61
+3e 0a 0a 3c 2f 64 64 3e  3c 2f 64 6c 3e 0a 0a 3c
+68 32 3e 45 72 72 6f 72  20 34 30 34 3c 2f 68 32
+3e 0a 3c 64 6c 3e 0a 3c  64 64 3e 0a 3c 61 64 64
+72 65 73 73 3e 0a 20 20  3c 61 20 68 72 65 66 3d
+22 2f 22 3e 77 77 77 2d  6e 65 74 2e 63 73 2e 75
+6d 61 73 73 2e 65 64 75  3c 2f 61 3e 0a 20 20 3c
+62 72 20 2f 3e 0a 20 20  0a 20 20 3c 73 6d 61 6c
+6c 3e 54 75 65 20 53 65  70 20 32 33 20 30 31 3a
+32 39 3a 35 30 20 32 30  30 33 3c 2f 73 6d 61 6c
+6c 3e 0a 20 20 3c 62 72  20 2f 3e 0a 20 20 3c 73
+6d 61 6c 6c 3e 41 70 61  63 68 65 2f 32 2e 30 2e
+34 30 20 28 52 65 64 20  48 61 74 20 4c 69 6e 75
+78 29 3c 2f 73 6d 61 6c  6c 3e 0a 3c 2f 61 64 64
+72 65 73 73 3e 0a 3c 2f  64 64 3e 0a 3c 2f 64 6c
+3e 0a 3c 2f 62 6f 64 79  3e 0a 3c 2f 68 74 6d 6c
+3e 0a 0a 
+
+Ramec 15
+Dlzka ramca poskytnuta pcap API: 54 B 
+Dlzka ramca prenasaneho po mediu: 64 B 
+Zdrojova MAC adresa: 00 08 74 4f 36 23
+Cielova MAC adresa: 00 06 25 da af 73
+Ethernet II
+IPv4
+Zdrojova IP adresa: 192.168.1.102
+Cielova IP adresa: 128.119.245.12
+TCP
+http
+Zdrojovy port: 4127
+Cielovy port: 80
+00 06 25 da af 73 00 08  74 4f 36 23 08 00 45 00
+00 28 01 d7 40 00 80 06  00 00 c0 a8 01 66 80 77
+f5 0c 10 1f 00 50 f5 32  68 8e 6b a6 5b 50 50 10
+fa f0 37 ad 00 00 
+
+Ramec 16
+Dlzka ramca poskytnuta pcap API: 92 B 
+Dlzka ramca prenasaneho po mediu: 96 B 
+Zdrojova MAC adresa: 00 08 74 4f 36 23
+Cielova MAC adresa: 00 30 c1 61 eb ed
+Ethernet II
+IPv4
+Zdrojova IP adresa: 192.168.1.102
+Cielova IP adresa: 192.168.1.104
+UDP
+snmp
+Zdrojovy port: 4128
+Cielovy port: 161
+00 30 c1 61 eb ed 00 08  74 4f 36 23 08 00 45 00
+00 4e 01 d8 00 00 80 11  00 00 c0 a8 01 66 c0 a8
+01 68 10 20 00 a1 00 3a  2e c7 30 30 02 01 00 04
+06 70 75 62 6c 69 63 a0  23 02 02 18 33 02 01 00
+02 01 00 30 17 30 15 06  11 2b 06 01 04 01 0b 02
+03 09 04 02 01 02 02 02  01 00 05 00 
+
+Ramec 17
+Dlzka ramca poskytnuta pcap API: 93 B 
+Dlzka ramca prenasaneho po mediu: 97 B 
+Zdrojova MAC adresa: 00 30 c1 61 eb ed
+Cielova MAC adresa: 00 08 74 4f 36 23
+Ethernet II
+IPv4
+Zdrojova IP adresa: 192.168.1.104
+Cielova IP adresa: 192.168.1.102
+UDP
+snmp
+Zdrojovy port: 161
+Cielovy port: 4128
+00 08 74 4f 36 23 00 30  c1 61 eb ed 08 00 45 00
+00 4f ec da 00 00 3c 11  0d a5 c0 a8 01 68 c0 a8
+01 66 00 a1 10 20 00 3b  1c c1 30 31 02 01 00 04
+06 70 75 62 6c 69 63 a2  24 02 02 18 33 02 01 00
+02 01 00 30 18 30 16 06  11 2b 06 01 04 01 0b 02
+03 09 04 02 01 02 02 02  01 00 04 01 10 
+
+IP adresy vysielajucich uzlov:
+192.168.1.102
+192.168.1.104
+63.240.76.19
+128.119.245.12
+Adresa uzla s najvacsim poctom odoslanych paketov:
+192.168.1.102 - 9 paketov
