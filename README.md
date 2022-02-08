@@ -3,8 +3,8 @@ Projekty z FIIT za 1.-3. semester.
 
 ## Prvý semester
 ### Procedurálne programovanie
-- [Zadanie 1 - Práca s jednorozmerným poľom](Zadanie 1 - Práca s jednorozmerným poľom)
-- [Zadanie 2 - Spájaný zoznam štruktúr](Zadanie 2 - Spájaný zoznam štruktúr)
+- [Zadanie 1 - Práca s jednorozmerným poľom](Zadanie%201%20-%20Práca%20s%20jednorozmerným%20poľom)
+- [Zadanie 2 - Spájaný zoznam štruktúr](Zadanie%202%20-%20Spájaný%20zoznam%20štruktúr)
 
 ## Druhý semester
 ### Datové štruktúry a algoritmy
