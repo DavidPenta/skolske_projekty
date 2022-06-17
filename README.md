@@ -25,7 +25,7 @@ Projekty z FIIT za 1-4. semester.
 - [Zadanie 3 - Riešenie problému obchodného cestujúceho algoritmom zakázaného prehľadávania a simulovaného žíhania](https://github.com/DavidPenta/skolske_projekty/tree/main/Umel%C3%A1%20inteligencia/Zadanie%203%20-%20Rie%C5%A1enie%20probl%C3%A9mu%20obchodn%C3%A9ho%20cestuj%C3%BAceho%20algoritmov%20zak%C3%A1zan%C3%A9ho%20preh%C4%BEad%C3%A1vania%20a%20simulovan%C3%A9ho%20%C5%BE%C3%ADhania)
 - [Zadanie 4 - Klastrovanie](https://github.com/DavidPenta/skolske_projekty/tree/main/Umel%C3%A1%20inteligencia/Zadanie%204%20-%20Klastrovanie)
 ## Štvrtý semester
-- ### Databázové systémy *- Python, Django, REST, PostgreSQL a ORM*
+- ### Databázové systémy *- Python, Django, REST API, PostgreSQL a ORM*
 - [Semestrálny projekt](https://github.com/DavidPenta/skolske_projekty/tree/main/Datab%C3%A1zov%C3%A9%20syst%C3%A9my)
 - ### Princípy softvérového inžinierstva *- Enterprise Architect*
 - [Semestrálny projekt](https://github.com/DavidPenta/skolske_projekty/tree/main/Princ%C3%ADpy%20softv%C3%A9rov%C3%A9ho%20in%C5%BEinierstva)
