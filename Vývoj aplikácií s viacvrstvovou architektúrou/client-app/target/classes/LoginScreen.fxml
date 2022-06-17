@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #3D3F3C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.musicverse.client.gui.LoginScreen">
+   <children>
+      <Label layoutX="50.0" layoutY="49.0" text="%WELCOME" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <GridPane alignment="CENTER" layoutX="430.0" layoutY="241.0" prefHeight="105.0" prefWidth="354.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="169.53326416015625" minWidth="10.0" prefWidth="127.9332275390625" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="226.0667724609375" minWidth="10.0" prefWidth="226.0667724609375" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="60.8" minHeight="10.0" prefHeight="31.46671142578125" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="56.26665649414062" minHeight="0.0" prefHeight="50.933312988281244" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label contentDisplay="CENTER" prefHeight="18.0" prefWidth="123.0" text="E-mail" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="18.0" prefWidth="128.0" text="%PASSWORD" textFill="WHITE" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="emailField" prefHeight="0.0" prefWidth="226.0" GridPane.columnIndex="1" />
+            <PasswordField fx:id="pswdField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <Button fx:id="logInBtn" layoutX="561.0" layoutY="390.0" mnemonicParsing="false" onAction="#onLogInBtnClick" prefHeight="40.0" prefWidth="138.0" style="-fx-background-color: #58A034; -fx-cursor: hand;" text="%LOG IN" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="733.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="%WHERE ALL THE MUSIC EXPERIENCE IS INDESCRIBABLY UNEARTHLY" wrappingWidth="407.81280517578125" AnchorPane.bottomAnchor="77.541015625" AnchorPane.rightAnchor="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="backBtn" layoutX="50.0" layoutY="529.0" onMouseClicked="#onBackBtnClick" prefHeight="26.0" prefWidth="43.0" text="%BACK" textFill="WHITE" style="-fx-cursor: hand;">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

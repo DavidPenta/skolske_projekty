@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="adminPane" prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #3D3F3C;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.musicverse.client.gui.AdminSectionScreen">
+   <children>
+      <Label fx:id="title" layoutX="58.0" layoutY="48.0" prefHeight="27.0" prefWidth="112.0" text="MUSICVERSE" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="backLabel" layoutX="236.0" layoutY="53.0" onMouseClicked="#backLabelClick" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="nickLabel" layoutX="904.0" layoutY="49.0" prefHeight="22.0" prefWidth="182.0" text="Guest/nick" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <MenuBar fx:id="menuBarSettings" layoutX="1040.0" layoutY="49.0" />
+      <Line endX="1000.0" layoutX="160.0" layoutY="90.0" startX="-100.0" stroke="WHITE" />
+      <Label layoutX="539.0" layoutY="101.0" text="Admin section" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchuserField" layoutX="58.0" layoutY="175.0" prefHeight="26.0" prefWidth="245.0" promptText="Search user" />
+      <Rectangle fx:id="lab" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="234.0" layoutX="57.0" layoutY="211.0" stroke="BLACK" strokeType="INSIDE" width="332.0" />
+      <Label layoutX="193.0" layoutY="219.0" text="Report table" textAlignment="CENTER" />
+      <Line endX="152.0" layoutX="189.0" layoutY="243.0" startX="-79.0" />
+      <Button fx:id="showAccountBtn" layoutX="60.0" layoutY="455.0" mnemonicParsing="false" onAction="#onShowAccountBtnClick" prefHeight="22.0" prefWidth="332.0" style="-fx-background-color: green;" text="Show account" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="blockUserBtn" layoutX="60.0" layoutY="494.0" mnemonicParsing="false" onAction="#onBlockUserBtnClick" prefHeight="22.0" prefWidth="332.0" style="-fx-background-color: red;" text="Block user" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="351.0" layoutX="431.0" layoutY="170.0" stroke="BLACK" strokeType="INSIDE" width="339.0" AnchorPane.topAnchor="170.0" />
+      <Label layoutX="550.0" layoutY="184.0" text="Searched user account" textAlignment="CENTER" AnchorPane.topAnchor="184.0" />
+      <Line endX="175.0" layoutX="572.0" layoutY="211.0" startX="-124.0" />
+      <Button fx:id="safeButton" layoutX="528.0" layoutY="454.0" mnemonicParsing="false" onAction="#onSafeBtnClick" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: green;" text="Safe" textFill="WHITE" />
+      <GridPane layoutX="468.0" layoutY="228.0" prefHeight="151.0" prefWidth="285.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="140.0" minWidth="10.0" prefWidth="132.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="143.0" minWidth="10.0" prefWidth="129.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="nickNameLabel" prefHeight="42.0" prefWidth="100.0" text="NickName" />
+            <Label fx:id="emailLabel" prefHeight="47.0" prefWidth="100.0" text="Email" GridPane.rowIndex="1" />
+            <Label fx:id="roleIDlabel" prefHeight="54.0" prefWidth="100.0" text="Role ID" GridPane.rowIndex="2" />
+            <Label fx:id="dateOfRegistrationLabel" prefHeight="37.0" prefWidth="143.0" text="Date of Registration" GridPane.rowIndex="3" />
+            <Label fx:id="NickNameValueLabel" prefHeight="38.0" prefWidth="153.0" text="SimonD" GridPane.columnIndex="1" />
+            <Label fx:id="emailValueLabel" prefHeight="38.0" prefWidth="163.0" text="email@email.sk" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <ChoiceBox fx:id="roleIDchoiceBox" prefHeight="25.0" prefWidth="102.0" style="-fx-background-color: #909789;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="dateOfRegistrationValueLabel" prefHeight="46.0" prefWidth="140.0" text="25.02.2022" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="351.0" layoutX="822.0" layoutY="170.0" stroke="BLACK" strokeType="INSIDE" width="339.0" />
+      <Label layoutX="936.0" layoutY="184.0" text="List of Artist requests" textAlignment="CENTER" />
+      <Line endX="175.0" layoutX="966.0" layoutY="211.0" startX="-124.0" />
+      <Button fx:id="searchButton" layoutX="313.0" layoutY="174.0" mnemonicParsing="false" onAction="#onSearchButtonClick" prefHeight="28.0" prefWidth="76.0" text="OK" />
+      <TableView fx:id="searchedUsersTable" layoutX="57.0" layoutY="249.0" prefHeight="197.0" prefWidth="332.0" />
+      <TableView fx:id="tableOfRequests" layoutX="822.0" layoutY="219.0" prefHeight="300.0" prefWidth="339.0" />
+      <Button fx:id="acceptButton" layoutX="1058.0" layoutY="528.0" mnemonicParsing="false" onAction="#onAcceptBtnClick" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: green;" text="Accept" textFill="WHITE" />
+      <Button fx:id="declineBtn" layoutX="822.0" layoutY="528.0" mnemonicParsing="false" onAction="#onDeclineBtnClick" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: red;" text="Decline" textFill="WHITE" />
+   </children>
+</AnchorPane>

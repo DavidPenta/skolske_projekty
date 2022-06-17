@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #3D3F3C;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.musicverse.client.gui.SearchScreen">
+   <children>
+      <Label fx:id="title" layoutX="58.0" layoutY="48.0" prefHeight="27.0" prefWidth="112.0" text="MUSICVERSE" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="backLabel" layoutX="1094.0" layoutY="52.0" onMouseClicked="#onBackLabelClick" text="%BACK" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchField" layoutX="205.0" layoutY="51.0" text="Search" />
+      <Button fx:id="searchBtn" layoutX="380.0" layoutY="51.0" mnemonicParsing="false" onAction="#onSearchBtnClick" text="OK" />
+      <TableView fx:id="artistsTable" layoutX="247.0" layoutY="154.0" onMouseClicked="#onArtistClicked" prefHeight="396.0" prefWidth="940.0" style="-fx-background-color: #3D3F3C;" stylesheets="@tableViewCss.css" visible="false" AnchorPane.leftAnchor="257.0" AnchorPane.rightAnchor="130.0" />
+      <Button fx:id="artistsBtn" layoutX="526.0" layoutY="51.0" mnemonicParsing="false" onAction="#onArtistsBtnClick" prefWidth="100.0" text="Artists" />
+      <Button fx:id="albumsBtn" layoutX="637.0" layoutY="51.0" mnemonicParsing="false" onAction="#onAlbumBtnClick" prefWidth="100.0" text="Albums" />
+      <Button fx:id="songsBtn" layoutX="746.0" layoutY="51.0" mnemonicParsing="false" onAction="#onSongsBtnClick" prefWidth="100.0" text="Songs" />
+      <TableView fx:id="tableSongs" layoutX="257.0" layoutY="164.0" onMouseClicked="#onSongItemClicked" prefHeight="396.0" prefWidth="940.0" style="-fx-background-color: #3D3F3C;" stylesheets="@tableViewCss.css" visible="false" AnchorPane.leftAnchor="130.0" AnchorPane.rightAnchor="130.0" />
+      <TableView fx:id="tableAlbums" layoutX="174.0" layoutY="158.0" onMouseClicked="#onAlbumItemClicked" prefHeight="394.0" prefWidth="840.0" />
+      <Label fx:id="labelSearch" layoutX="573.0" layoutY="106.0" text="Artists" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <MenuBar fx:id="songAction" layoutX="1075.0" layoutY="154.0" prefHeight="20.0" prefWidth="94.0" />
+      <MenuBar fx:id="albumAction" layoutX="1074.0" layoutY="179.0" prefHeight="20.0" prefWidth="94.0" />
+      <MenuBar fx:id="artistAction" layoutX="1075.0" layoutY="201.0" prefHeight="20.0" prefWidth="94.0" />
+   </children>
+</AnchorPane>
