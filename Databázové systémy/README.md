@@ -121,6 +121,7 @@
     ORDER BY x.hero_id, x.c DESC, x.name;
 
 #### v3/abilities/{ability_id}/usage/
+
     SELECT ability_id, name, hero_id, localized_name, c, TimeRange, Win
     FROM (
              SELECT *, ROW_NUMBER() OVER (PARTITION BY hero_id, Win ORDER BY c DESC) as rn
