@@ -1,0 +1,201 @@
+Table Pouzivatel {
+  id int [pk, increment]
+  nick varchar(20) [not null, unique]
+  meno varchar [not null]
+  typ_registracie enum [not null]
+  heslo_hash varchar [not null]
+  email varchar
+  email_potvrdeny boolean
+  cas_vytvorenia timestamp
+  kod_krajiny int
+  tim_id int [ref: > Tim.id]
+}
+
+Table Priatelia {
+  id int [pk, increment]
+  pouzivatel_id_1 int [ref: > Pouzivatel.id, not null]// ten co poslal ziadost
+  pouzivatel_id_2 int [ref: > Pouzivatel.id, not null]
+  postava_id_1 int [ref: > Postava.id, not null]
+  postava_id_2 int [ref: > Postava.id, not null]
+  cas_vytvorenia timestamp
+  
+}
+
+Table Tim {
+  id int [pk, increment]
+  meno varchar [not null, unique]
+  pocet_clenov int
+  cas_vytvorenia timestamp
+}
+
+
+Table Ziadosti_o_priatelstvo {
+  id int [pk, increment]
+  pouzivatel_id_1 int [ref: > Pouzivatel.id, not null]
+  pouzivatel_id_2 int [ref: > Pouzivatel.id, not null]
+  prijatie boolean
+  cas_vytvorenia timestamp
+  cas_prijatia timestamp
+}
+
+Table Pozvanka_do_timu {
+  id int [pk, increment]
+  pouzivatel_id_1 int [ref: > Pouzivatel.id, not null]
+  pouzivatel_id_2 int [ref: > Pouzivatel.id, not null]
+  tim_id int [ref: > Tim.id, not null]
+  prijatie boolean
+  cas_vytvorenia timestamp
+}
+
+Table Timovy_chat {
+  id int [pk, increment]
+  pouzivatel_id int [ref: > Pouzivatel.id, not null]
+  tim_id int [ref: > Tim.id, not null]
+  sprava varchar [not null]
+  cas_vytvorenia timestamp
+}
+
+Table Chat_medzi_priatelmi {
+  id int [pk, increment]
+  pouzivatel_id_1 int [ref: > Priatelia.pouzivatel_id_1, not null]
+  pouzivatel_id_2 int [ref: > Priatelia.pouzivatel_id_2, not null]
+  sprava varchar [not null]
+  cas_vytvorenia timestamp
+}
+
+Table Postava {
+  id int [pk, increment]
+  meno varchar [not null]
+  pouzivatel_id int [ref: > Pouzivatel.id, not null]
+  rola_id int [ref: > Rola.id, not null]
+  poloha_id int [ref: > Poloha.id]
+  level_id int [ref: > Level.id]
+  predmet_id int [ref: > Predmet.id]
+  EXP int [not null]
+  pocet_zivotov int [not null]
+  utocne_cislo int [not null]
+  obranne_cislo int [not null]
+}
+
+Table Level {
+  id int [pk, increment]
+  nazov varchar
+  rola_id int [ref: > Rola.id]
+  start_EXP int
+  end_EXP int
+}
+
+
+Table Poloha {
+  id int [pk, increment]
+  meno varchar
+  poschodie int [not null]
+  potrebny_level_id int [ref: > Level.id]
+  x_suradnica int
+  y_suradnica int
+}
+
+
+Table Uloha {
+  id int [pk, increment]
+  meno varchar
+  popis varchar
+  od_level_id int [ref: > Level.id] // zobrazuje sa postavam od tochto levelu
+  do_level_id int [ref: > Level.id] // zobrazuje sa postavam do tochto levelu
+  poloha_id int [ref: > Poloha.id]
+  predmet_id int [ref: > Predmet.id]  // postava moze ziskat
+  level_id int [ref: > Level.id]
+  EXP int // kolko EXP postava ziska
+}
+
+
+Table Prisera {
+  id int [pk, increment]
+  meno varchar [not null, unique]
+  popis varchar
+  rola_id int [ref: > Rola.id]
+  poloha_id int [ref: > Poloha.id]
+  level_id int [ref: > Level.id]
+  od_level_id int [ref: > Level.id] // zobrazuje sa postavam od tochto levelu
+  do_level_id int [ref: > Level.id] // zobrazuje sa postavam do tochto levelu
+  predmet_id int [ref: > Predmet.id]  // postava moze ziskat
+  ulohat_pred_id int [ref: > Uloha.id] // je nutne ju splnit pred
+  prisera_pred_id int [ref: > Prisera.id] // je nutne ju zabit pred
+  EXP int // kolko EXP postava ziska
+  pocet_zivotov int [not null]
+  utocne_cislo int [not null]
+  obranne_cislo int [not null]
+}
+
+Table Suboj {
+  id int [pk, increment]
+   prisera_id int [ref: > Prisera.id]
+  postava_id int [ref: > Postava.id]
+  zabitie_prisery boolean
+  zabitie_postavy boolean
+  poloha_id int [ref: > Poloha.id]
+  EXP int // kolko EXP postava ziskala
+  cas_zacatia timestamp
+  cas_ukoncenia timestamp
+}
+
+Table Udalost {
+  id int [pk, increment]
+  nazov varchar [not null] 
+  popis varchar
+  suboj_id int [ref: > Suboj.id, not null]
+  poloha_id int [ref: > Poloha.id]
+  EXP int // kolko EXP postava ziskala
+  cas timestamp
+}
+
+Table Postava_Uloha {
+  id int [pk, increment]
+  dokoncena boolean
+  postava_id int [ref: > Postava.id, not null]
+  ulohat_id int [ref: > Uloha.id, not null]
+}
+
+Table Postava_Schopnost {
+  id int [pk, increment]
+  postava_id int [ref: > Postava.id, not null]
+  schopnost_id int [ref: > Schopnost.id, not null]
+}
+
+
+Table Rola {
+  id int [pk, increment]
+  nazov varchar [not null, unique]
+  popis varchar
+  zvysenie_pocetu_zivotov int // pri novom levely
+  zvysenie_utocneho_cisla int // pri novom levely
+  zvysenie_obranneho_cisla int // pri novom levely
+}
+
+
+Table Schopnost {
+  id int [pk, increment]
+  rola_id int [ref: > Rola.id]
+  od_level_id int [ref: > Level.id] // zobrazuje sa postavam od tochto levelu
+  nazov varchar [not null]
+  popis varchar
+  
+}
+
+
+Table Predmet {
+  id int [pk, increment]
+  nazov varchar [not null]
+  popis varchar
+  poloha_id int [ref: > Poloha.id]
+  zvysenie_pocetu_zivotov int
+  zvysenie_utocneho_cisla int
+  zvysenie_obranneho_cisla int
+}
+
+
+Enum typ_registracie {
+  cez_hru
+  facebook
+  google
+}
