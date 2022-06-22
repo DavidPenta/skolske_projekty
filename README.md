@@ -3,8 +3,8 @@ Projekty z FIIT za 1.-3. semester.
 
 ## Prvý semester
 ### Procedurálne programovanie
-- [Zadanie 1 - Práca s jednorozmerným poľom](https://github.com/DavidPenta/skolske_projekty/tree/main/Procedur%C3%A1lne%20programovanie/Zadanie%201%20-%20Pr%C3%A1ca%20s%20jednorozmern%C3%BDm%20po%C4%BEom)
-- [Zadanie 2 - Spájaný zoznam štruktúr](https://github.com/DavidPenta/skolske_projekty/tree/main/Procedur%C3%A1lne%20programovanie/Zadanie%202%20-%20Sp%C3%A1jan%C3%BD%20zoznam%20%C5%A1trukt%C3%BAr)
+- [Projekt 1 - Práca s jednorozmerným poľom](https://github.com/DavidPenta/skolske_projekty/tree/main/Procedur%C3%A1lne%20programovanie/Zadanie%201%20-%20Pr%C3%A1ca%20s%20jednorozmern%C3%BDm%20po%C4%BEom)
+- [Projekt 2 - Spájaný zoznam štruktúr](https://github.com/DavidPenta/skolske_projekty/tree/main/Procedur%C3%A1lne%20programovanie/Zadanie%202%20-%20Sp%C3%A1jan%C3%BD%20zoznam%20%C5%A1trukt%C3%BAr)
 
 ## Druhý semester
 ### Datové štruktúry a algoritmy
